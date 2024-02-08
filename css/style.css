@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+}
+#title{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 68px;
+    margin-top: 2rem;
+}
+#level{
+    text-align: center;
+    margin-bottom: 5rem;
+    color: gray;
+    font-size: 42px;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.buttons > .row1, .row2{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.buttons > .row1{
+    margin-bottom: 2rem;
+}
+.btn{
+    height: 180px;
+    width: 180px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+footer{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
